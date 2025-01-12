@@ -16,3 +16,31 @@ nav {
   .text-primary{
     color: #FD6E0A;
   }
+  nav{
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+  }
+  nav ul{
+    display: flex;
+    
+  }
+  nav ul li{
+    list-style: none;
+    margin: 40px;
+  }
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .dark-2 {
+    color: #474747;
+  }
+  .btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700px;
+    color: white;
+    padding: 18px;
+  }
