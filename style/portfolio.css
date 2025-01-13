@@ -80,4 +80,13 @@ nav {
     background-repeat: no-repeat;
     background-position: top left, bottom right;
   }
-  
+.section-title{
+  font-weight: 800px;
+  font-size: 35px;
+  color: #181818;
+}
+.section-description{
+  font-weight: 400px;
+  font-size: 18px;
+  color: #757575;
+}
