@@ -87,6 +87,8 @@ nav {
   color: #181818;
   text-align: center;
 }
+
+
 .section-description{
   font-weight: 400px;
   font-size: 18px;
@@ -128,6 +130,11 @@ main{
 .skill-container{
   display: flex;
   gap: 18px;
+}
+@media screen and (max-width:576px) {
+  .skill-container{
+    flex-direction: column;
+  }
 }
 .skill{
   box-shadow:0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
@@ -182,11 +189,12 @@ footer{
   padding: 130px 230px;
   gap: 100px;
 }
+
 .footer-colume{
   width: 50%;
   /* display: block; */
 }
-footer input[type="text"], [type="email"] {
+footer input[type="text"], footer input[type="email"] {
   width: 461px;
   height: 64px;
   background-color: white;
@@ -204,6 +212,24 @@ footer textarea{
   width: 461px;
   height: 180px;
   font-size: 16px;
+}
+@media screen and (max-width:576px) {
+  footer {
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+  .footer-colume{
+    width: 100%;
+  }
+  footer input[type="text"], footer input[type="email"], footer textarea{
+    width: calc(100% - 40px);
+  }
+  .resume-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 
